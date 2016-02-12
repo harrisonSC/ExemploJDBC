@@ -7,7 +7,7 @@ private Integer codigo;
 private String nome;
 private String telefone;
 private String email;
-private Date datacadastro;
+private Date dataCadastro;
 private String observacao;
 
 public Integer getCodigo() {
@@ -35,10 +35,10 @@ public void setEmail(String email) {
 	this.email = email;
 }
 public Date getDatacadastro() {
-	return datacadastro;
+	return dataCadastro;
 }
-public void setDatacadastro(Date datacadastro) {
-	this.datacadastro = datacadastro;
+public void setDatacadastro(Date dataCadastro) {
+	this.dataCadastro = dataCadastro;
 }
 public String getObservacao() {
 	return observacao;
